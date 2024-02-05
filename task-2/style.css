@@ -54,8 +54,8 @@ body{
     display:flex;
     align-items: center;
     height:100vh;
-    padding: 0 10%;
-
+    padding: 0 5%;
+    justify-content: space-between;
 }
 .home-content{
     background:transparent;
@@ -171,7 +171,14 @@ body{
 .home-sci a:hover::before{
     width: 100%;
 }
-
+.home1{
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 350px;
+    height:75%;
+    background: transparent;
+}
 .slider{
     position: relative;
     width: 250px;
